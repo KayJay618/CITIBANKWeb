@@ -1,0 +1,111 @@
+
+
+
+/*** Footer ***/
+.footer .btn.btn-link {
+    display: block;
+    margin-bottom: 5px;
+    padding: 0;
+    text-align: left;
+    color: var(--light);
+    font-weight: normal;
+    text-transform: capitalize;
+    transition: .3s;
+}
+
+.footer .btn.btn-link::before {
+    position: relative;
+    content: "\f105";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 10px;
+}
+
+.footer .btn.btn-link:hover {
+    color: var(--primary);
+    letter-spacing: 1px;
+    box-shadow: none;
+}
+
+.copyright {
+    color: var(--light);
+    background: #072A19;
+}
+
+.copyright a {
+    color: #FFFFFF;
+}
+
+.copyright a:hover {
+    color: var(--primary);
+}
+
+
+.video-play-button {
+    position: relative;
+    box-sizing: content-box;
+    display: inline-block;
+    width: 32px;
+    height: 44px;
+    border-radius: 50%;
+    padding: 46px 8px 18px 28px; }
+    .video-play-button:before, .video-play-button:after {
+      content: "";
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -moz-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      -o-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      display: block;
+      width: 90px;
+      height: 90px;
+      border-radius: 50%;
+      box-shadow: 0px 20px 30px rgba(86, 176, 249, 0.3); }
+    .video-play-button:before {
+      z-index: 0;
+      -webkit-animation: pulse-border 2000ms ease-out infinite;
+      -moz-animation: pulse-border 2000ms ease-out infinite;
+      -o-animation: pulse-border 2000ms ease-out infinite;
+      animation: pulse-border 2000ms ease-out infinite; }
+    .video-play-button:after {
+      z-index: 1;
+      -webkit-transition: all 200ms ease;
+      -moz-transition: all 200ms ease;
+      -o-transition: all 200ms ease;
+      transition: all 200ms ease; }
+    .video-play-button span {
+      display: block;
+      position: relative;
+      z-index: 3;
+      width: 0;
+      height: 0;
+      border-left: 16px solid #fff;
+      border-top: 8px solid transparent;
+      border-bottom: 8px solid transparent; }
+    .video-play-button:hover:after {
+      background-color: #013b06; }
+  
+  .watch_video {
+    margin-left: 20px; }
+    .watch_video h5 {
+      font-size: 18px; }
+    .watch_video p {
+      margin-bottom: 0; }
+
+
+      .whatsapp {
+        width: 65px;
+        height: 40px;
+        position: fixed;
+        right: 0px;
+        top: 52%;
+    }
+    .whatsapp h5 {
+        color: rgb(250, 250, 250);
+        background: #20b20f;
+        padding: 12px;
+        border-radius: -100px 100px ;
+    }

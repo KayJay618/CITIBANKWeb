@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title>KayJay Login Form </title>
+  <link href="https://fonts.googleapis.com/css?family=Assistant:400,700" rel="stylesheet"><link rel="stylesheet" href="css/styleLog.css">
+  <link rel="stylesheet" href="css/ex.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<section class='login' id='login'>
+  
+
+  
+  <div class='head'>
+    
+  <img src="img/LOGO PNG.ico"> 
+   
+  <h1 class='company'>KayJay Agencies</h1>
+  </div>
+  <p class='msg'>Welcome back</p>
+  <div class='form'>
+    <form>
+      <form name="login">
+        <input type="text" placeholder='Username' class='text' id='username' name="userid" required><br>
+        <input type="password" placeholder='Password' class='password' name="pswrd"><br>
+        <input type="button" onclick="check(this.form)" value="Login" class="cp1"/>
+        <input type="reset" value="Cancel" class="cp2"/>
+        </form>
+    </form>
+  </div>
+</section>
+<footer>
+  
+</footer>
+<!-- partial -->
+<script language="javascript">
+  function check(form)/*function to check userid & password*/
+  {
+   /*the following code checkes whether the entered userid and password are matching*/
+   if(form.userid.value == "Citibooklet#618" && form.pswrd.value == "Citibooklet#618")
+    {
+      window.open('home.html')/*opens the target page while Id & password matches*/
+    }
+   else
+   {
+     alert("Error Password or Username")/*displays error message*/
+    }
+  }
+</script>
+  <script  src="js/script.js"></script>
+
+</body>
+</html>
